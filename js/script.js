@@ -27,6 +27,6 @@ if (groupSize > 0 && groupSize<= 2) {
     via = "Charter Flight";
 }
 
-result = "Alright, you have given me quite a bit of information ~ so let's recap. You are looking for a " + vacationType + " theme, so I would recommend you go " + destination + "! \n\n But the trick now is to figure out how to get you there? \n\n I see that you have " + groupSize + " people traveling with you, so SUUUURRVEYYY SAYS: travel by " + via + "! How exciting!!";
+result = "Alright, you have given me quite a bit of information ~ so let's recap. You are looking for a " + vacationType + " theme, so I would recommend you go " + destination + "! \n\n But the trick now is to figure out how to get you there... \n\n I see that you have " + groupSize + " people traveling with you, so SUUUURRVEYYY SAYS: travel by " + via + "! How exciting!!";
 
 console.log(result);
